@@ -13,7 +13,7 @@ body{
     height:100vh;
     width;100vw;
     overflow:hidden;
-    background: #037303
+    background: black
 }
 .flipbook{
     width: 1000px;
@@ -21,7 +21,7 @@ body{
 }
 .flipbook .paginas{
     background: blueviolet;
-    color: rgb(246, 246, 246);
+    color: white;
     font-weight: bold;
     border: none;
 }
@@ -30,4 +30,16 @@ body{
     font-weight: lighter;
     opacity: o.8;
     font-size: 14px;
+}
+.flipbook ,.page{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 0,0.11);
+}
+.page img{
+    width: 70%;
+    margin: auto;
 }
