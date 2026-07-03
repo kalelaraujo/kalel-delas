@@ -21,7 +21,7 @@ body{
 }
 .flipbook .paginas{
     background: blueviolet;
-    color: beige;
+    color: rgb(246, 246, 246);
     font-weight: bold;
     border: none;
 }
