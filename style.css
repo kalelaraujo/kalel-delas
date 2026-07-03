@@ -15,3 +15,19 @@ body{
     overflow:hidden;
     background:#000000;
 }
+.flipbook{
+    width: 1000px;
+    height: 600px;
+}
+.flipbook .paginas{
+    background: blueviolet;
+    color: beige;
+    font-weight: bold;
+    border: none;
+}
+.flipbook .paginas small{
+    font-style: italic;
+    font-weight: lighter;
+    opacity: o.8;
+    font-size: 14px;
+}
